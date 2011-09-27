@@ -12,6 +12,18 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
+        <dependency name="annotate" version="2.4.0" bound="EQUAL" git="true" path="false" ref="4d57e4fe6360" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="annotate" version="0" bound="GREATER_OR_EQUAL" git="true" path="false" ref="rake_compatibility" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="coffee-rails" version="3.1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -103,9 +115,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-cache (v1.0.3, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-cache-1.0.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.10, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/treetop-1.4.10)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/mime-types-1.16)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.6.4, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rspec-core-2.6.4)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-expectations (v2.6.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rspec-expectations-2.6.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-mocks (v2.6.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rspec-mocks-2.6.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-expectations (v2.6.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rspec-expectations-2.6.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.6.4, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rspec-core-2.6.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] coffee-script-source (v1.1.2, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/coffee-script-source-1.1.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] arel (v2.2.1, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/arel-2.2.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.1.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activemodel-3.1.0)" level="application" />
@@ -113,7 +125,6 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-ssl (v1.3.2, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-ssl-1.3.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.7.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/erubis-2.7.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.3.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/mail-2.3.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.3.3, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/sqlite3-ruby-1.3.3)" level="application" />
   </component>
 </module>
 
