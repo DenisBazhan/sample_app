@@ -12,12 +12,6 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
-        <dependency name="annotate" version="2.4.0" bound="EQUAL" git="true" path="false" ref="4d57e4fe6360" doRequire="true" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="annotate" version="0" bound="GREATER_OR_EQUAL" git="true" path="false" ref="4d57e4fe6360" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -133,6 +127,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.7.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/erubis-2.7.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.3.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/mail-2.3.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] gravatar_image_tag (v1.0.0, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/gravatar_image_tag-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.3.3, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/sqlite3-ruby-1.3.3)" level="application" />
   </component>
 </module>
 
